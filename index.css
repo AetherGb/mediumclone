@@ -293,7 +293,7 @@ body {
 }
 .con-title{
     display: flex;
-    height:20%;
+    height:clamp(fit-content,20%,fit-content);
 }
 .con-title > img{
     border: none;
