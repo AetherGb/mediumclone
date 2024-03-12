@@ -325,7 +325,7 @@ width:100%;
         margin:0;
 }
 .con-description{
-    height: 30%;
+    height: fit-content;
 }
 .con-description > p{
 
@@ -431,7 +431,7 @@ width:100%;
     border-top: 1px solid #F2F2F2;
 
 }
-@media only screen and (max-width: 780px) {
+@media only screen and (max-width: 1300px) {
     .navbar{
         padding: 0 40px 0 40px;
     }
